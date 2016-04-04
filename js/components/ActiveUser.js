@@ -14,7 +14,7 @@ var ActiveUser = React.createClass({
                         <h3 >{this.props.activeUser.name}</h3>
                         <table className="user-info table table-responsive">
                             <tbody >
-                            <tr >
+                            <tr   >
                                 <td >Age:</td>
                                 <td >{this.props.activeUser.age}</td>
                             </tr>

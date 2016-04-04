@@ -4,6 +4,7 @@ import SearchBar from './components/SearchBar';
 import ActiveUser from './components/ActiveUser';
 import ToolBar from './components/ToolBar';
 import UserList from './components/UserList';
+import $ from "jquery";
 
 
 export default class App extends Component {
