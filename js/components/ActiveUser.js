@@ -3,6 +3,7 @@ import React from 'react';
 var ActiveUser = React.createClass({
     render(){
         if (!this.props.activeUser) {
+            
             return <div className="col-sm-2"><h3>Not Found</h3></div>;
         }
         console.log(this.props.activeUser);
@@ -14,7 +15,7 @@ var ActiveUser = React.createClass({
                         <h3 >{this.props.activeUser.name}</h3>
                         <table className="user-info table table-responsive">
                             <tbody >
-                            <tr   >
+                            <tr >
                                 <td >Age:</td>
                                 <td >{this.props.activeUser.age}</td>
                             </tr>
