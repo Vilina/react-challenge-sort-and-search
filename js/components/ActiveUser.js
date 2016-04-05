@@ -3,7 +3,7 @@ import React from 'react';
 var ActiveUser = React.createClass({
     render(){
         if (!this.props.activeUser) {
-            
+
             return <div className="col-sm-2"><h3>Not Found</h3></div>;
         }
         console.log(this.props.activeUser);
@@ -18,7 +18,7 @@ var ActiveUser = React.createClass({
                             <tr >
                                 <td >Age:</td>
                                 <td >{this.props.activeUser.age}</td>
-                            </tr>
+                            </tr>     
                             <tr >
                                 <td >Favorite animal:</td>
                                 <td >{this.props.activeUser.image}</td>
