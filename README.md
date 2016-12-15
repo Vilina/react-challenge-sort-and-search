@@ -19,3 +19,5 @@
 * Деплой (`gulp deploy`): пушит всё, что находится в папке `public` в ветку `gh-pages`. В результате сайт можно показать другу
 
 ## Удачи!
+
+[Deploy](https://vilina.github.io/react-challenge-sort-and-search//)
